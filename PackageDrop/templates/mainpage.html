@@ -1,0 +1,21 @@
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="{{url_for('static', filename='login.js')}}"></script>
+	<title>PackageDrop</title>
+  	<link type = "text/css" rel = "stylesheet" href="{{ url_for('static', filename='login.css') }}" />
+  	<link type = "text/css" rel = "stylesheet" href="{{ url_for('static', filename='cssmainpage.css') }}" />
+</head>
+<body>
+	<div class="middle">
+		<h1 id="title" style="margin-bottom: 10px;">PackageDrop</h1>
+		<p id="maindesc">A secure home for your files</p>
+	</div>
+	<div class="form">      
+      <ul class="tab-group">
+        <li class="tab active"><a href="/register">Sign Up</a></li>
+        <li class="tab"><a href="/login">Log In</a></li>
+      </ul>    
+</div>
+</body>
+</html>

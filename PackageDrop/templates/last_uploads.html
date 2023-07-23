@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html><head><meta content="width=device-width, initial-scale=1" name="viewport"/><link href="{{ url_for('static', filename='upload.css') }}" rel="stylesheet" type="text/css"/><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><script src="{{url_for('static', filename='login.js')}}"></script><title>PackageDrop Download</title></head><body>
+<h1>Download your package!</h1>
+<h2>Click on one of the files to download</h2>
+<form action="/logout">
+<input id="Lout" type="submit" value="Log out"/>
+</form>
+<p><p></p><a href="/download?file=test.txt">test.txt</a></p><p>
+    {% with messages = get_flashed_messages() %}
+        {% for message in messages %}
+            {{message|safe}}
+        {% endfor %}
+    {% endwith %}
+</p></body></html>
