@@ -5,4 +5,8 @@ vertically, horizontally, or diagonally. Fully implemented using x86 assembly on
 
 PackageDrop – full stack project mimicking a cloud system which allows users to upload and 
 download their data. Users' personal information encrypted and stored in SQL database. The project incorporated the use 
-of: HTML, CSS, JavaScript, and Python. Flask framework was used alongside reCAPTCHA and JSON
+of: HTML, CSS, JavaScript, and Python. Flask framework was used alongside reCAPTCHA and JSON.
+
+Programmable Interrupt Controller (PIC) - Programmable Interrupt Controller (PIC) is used to increase the number of
+interrupt lines a controller can handle.The design transfers the highest priority, non masked, interrupt to the CPU on a data 
+bus and also signals the CPU that there is an interrupt request. Written in VHDL and simulatedd on ModelSIM.
