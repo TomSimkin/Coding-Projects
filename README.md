@@ -5,7 +5,7 @@ vertically, horizontally, or diagonally. Fully implemented using x86 assembly on
 
 Programmable Interrupt Controller (PIC) - Programmable Interrupt Controller (PIC) is used to increase the number of
 interrupt lines a controller can handle. The design transfers the highest priority, non masked, interrupt to the CPU on a data 
-bus and also signals the CPU that there is an interrupt request. Written in VHDL and simulatedd on ModelSIM.
+bus and also signals the CPU that there is an interrupt request. Written in VHDL and simulated on ModelSIM.
 
 FEC Hamming -  RTL model of 8 bit to 12 bit synchronous parallel encoder and 12 bit to 8 bit synchronous parallel decoder on code Hamming.
 
